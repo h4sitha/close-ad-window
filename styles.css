@@ -18,6 +18,14 @@ svg {
     border: 5px solid white;
 }
 
+svg:hover {
+    fill: hsl(0, 100%, 45%);
+}
+
+svg:active {
+    fill: hsl(0, 100%, 40%);
+}
+
 div {
     width: fit-content;
     position: relative;
