@@ -3,13 +3,19 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-color: lightcoral;
 }
 
 svg {
-    width: 50px;
+    width: 40px;
+    height: 40px;
     position: absolute;
-    top: -25px;
-    right: -25px;
+    top: -20px;
+    right: -20px;
+    fill: red;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid white;
 }
 
 div {
@@ -19,4 +25,6 @@ div {
 
 img {
     width: 750px;
+    border: 5px solid white;
+    border-radius: 14px;
 }
