@@ -9,3 +9,8 @@ closeBtn.addEventListener('click', () => {
     resetBtn.textContent = "Reset";
     body.appendChild(resetBtn);
 })
+
+resetBtn.addEventListener('click', () => {
+    resetBtn.remove();
+    body.appendChild(elementsContainer);
+})
