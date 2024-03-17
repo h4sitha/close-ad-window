@@ -1,9 +1,13 @@
 svg {
     width: 50px;
+    position: absolute;
+    top: -25px;
+    right: -25px;
 }
 
 div {
     width: fit-content;
+    position: relative;
 }
 
 img {
